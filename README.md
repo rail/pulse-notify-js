@@ -1,13 +1,17 @@
 # Simple Release Promotion Notification (JS)
+
 This repo contains simple scripts that demonstrate how to handle release promotion events.
 
 ## Install
+
 * Install required JS packages:
 ```shell
 npm install
 ```
 * Done
+
 ## Configuration
+
 Example configuration file
 ```js
 module.exports = {
@@ -29,7 +33,9 @@ module.exports = {
   }
 };
 ```
+
 ## Running
+
 ```shell
 npm run start -- -c path/to/your/config.js
 ```
