@@ -1,5 +1,6 @@
 import taskcluster from 'taskcluster-client';
 import program from 'commander';
+import colors from 'colors';
 import {processMessage} from './functions';
 
 program.option('-c, --config <config>', 'Path to config file').parse(process.argv);
