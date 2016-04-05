@@ -15,7 +15,7 @@ listener.bind(queueEvents.taskFailed(config.taskcluster.routingKey));
 listener.bind(queueEvents.taskException(config.taskcluster.routingKey));
 
 listener.on('message', (msg) => {
-  return processMessage(msg, queue);
+  return processMessage(msg, queue, config);
 });
 
 listener.resume().then(function() {
