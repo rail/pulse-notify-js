@@ -30,7 +30,14 @@ module.exports = {
       accessToken: "xxx"
     },
     routingKey: 'route.index.releases.v1.#'
-  }
+  },
+  // optional log upload connifg
+  // logUpload: {
+  //   credentials: {"accessKeyId": "xxx",
+  //                 "secretAccessKey": "xxx"},
+  //   bucket: "log_bucket"
+  // }
+
 };
 ```
 

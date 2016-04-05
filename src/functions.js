@@ -58,6 +58,7 @@ async function logUpload(msg, task, queue, config){
   }
   let suffix = logUrl.split('/').pop();
   let logName = `${taskId}.${runId}-${suffix}`;
+  // TODO: unify names, compress text files
   await doUploadLog(logUrl, logName, config)
 }
 
